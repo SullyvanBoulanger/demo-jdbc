@@ -1,0 +1,12 @@
+services:
+  mariadb:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: test-db
+      MYSQL_USER: cats4ever
+      MYSQL_PASSWORD: cats4life
+      MYSQL_DATABASE: compta
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data_tp_sql.sql:/docker-entrypoint-initdb.d/initial_script.sql

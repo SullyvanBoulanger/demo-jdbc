@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TestDaoJdbc",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdbc.TestDaoJdbc",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestSelect",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdbc.TestSelect",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestDelete",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdbc.TestDelete",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestUpdate",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdbc.TestUpdate",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestInsertion",
+            "request": "launch",
+            "mainClass": "fr.diginamic.jdbc.TestInsertion",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestConnexionJdbc",
+            "request": "launch",
+            "mainClass": "fr.diginamic.props.TestConnexionJdbc",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "fr.demo.jdbc.Main",
+            "projectName": "demo-jdbc"
+        },
+        {
+            "type": "java",
+            "name": "TestConfigurationProps",
+            "request": "launch",
+            "mainClass": "fr.diginamic.props.TestConfigurationProps",
+            "projectName": "demo-jdbc",
+            "vmArgs": "-Xms64m -Xmx1024m -Dfile.encoding=UTF-8"
+        }
+    ]
+}
